@@ -9,5 +9,5 @@ window.addEventListener("scroll", function () {
   }
 });
 btnTop.addEventListener("click", function () {
-  window.scroll({ top: 0, behavior: 'smooth' });
+  window.scroll({ top: 0, behavior: "smooth" });
 });
