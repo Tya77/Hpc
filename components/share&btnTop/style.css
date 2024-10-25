@@ -1,0 +1,53 @@
+.share {
+  padding: 0.5rem 0.3rem;
+  border-bottom: 1px solid var(--Text-Scale-10, #c5c5c5);
+  color: var(--Text-Body-Body-40---sub, #6e6e6e);
+  /* PC/16-B */
+  font-family: "Averta Std CY";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 1.2rem */
+  letter-spacing: -0.01rem;
+  cursor: default;
+}
+.share-link {
+  display: flex;
+  width: 3.125rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.share-link a {
+  margin-top: 0.75rem;
+}
+.ontop,
+.share-container {
+  display: flex;
+  align-items: center;
+  flex: 1 0 0;
+  cursor: default;
+  position: sticky;
+  position: -webkit-sticky;
+}
+.ontop {
+  margin-left: 2.5rem;
+  opacity: 0;
+  top: 19rem;
+  scroll-behavior: smooth;
+}
+.share-container {
+  margin-top: 31.75rem;
+  margin-right: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  top: 150px;
+  /* bottom: 0px; */
+}
+.ontop.show {
+  opacity: 1;
+  cursor: pointer;
+}
+.ontop img {
+  width: 3.125rem;
+  height: 3.125rem;
+}
